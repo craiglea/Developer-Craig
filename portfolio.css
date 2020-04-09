@@ -1,0 +1,311 @@
+body {
+	background-color: #FE4A49;
+} 
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbarLogos {
+  width: 30px;
+  position: relative;
+  left: 10px;
+}
+
+.navbar-nav {
+  font-size: 18px;
+}
+
+.navbar.scrolled {
+  background: #04aaf9c9;
+  transition: background 2s;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+#mainNavbar .nav-link {
+  color: black;
+  font-family: 'Acme', sans-serif;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #fff;
+}
+
+#mainNavbar .navbar-brand {
+  color: #fff;
+}
+
+.faderPage {
+	height: 745px;
+}
+
+#topContainer {
+  background: url(https://images.pexels.com/photos/2113564/pexels-photo-2113564.jpeg?cs=srgb&dl=snow-covered-terrain-2113564.jpg&fm=jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: -webkit-fill-available;
+  margin: 0; 
+}
+
+.titleMessage {
+  width: 100%;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  top: 100px;
+}
+
+.titleMessage .heading p {
+	color: #fff;
+  text-shadow: 2px 11px 0px rgba(0, 0, 0, 0.4);
+  font-weight: 100;
+  font-weight: 100;
+  letter-spacing: 14px;
+
+}
+
+.titleMessage .heading .main {
+	font-size: 190px;
+}
+
+.titleMessage .heading .sub {
+	font-size: 70px;
+	letter-spacing: 4px;
+  text-shadow: 2px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+#aboutRow {
+  height: 500px;
+  background-color: #FED766;
+}
+
+#aboutImage {
+  background: url(../imgs/about.jpg);
+  background-size: cover;
+  background-position: center; 
+  height: 500px;
+  background-color: #FED766;
+}
+
+.aboutContent {
+  background-color: #4444448a;
+  color: #232C33;
+}
+
+.jumbotron {
+  padding: 0;
+  margin-bottom: 0;
+  color: #232C33;
+}
+
+.iconImage {
+	padding: 10px;
+}
+
+.container .row .col-md-12 .main {
+	font-size: 18px;
+}
+
+.container-skills {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.container-skills h2 {
+  font-family: 'Acme', sans-serif;
+  font-size: 80px;
+}
+
+.container-stats {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.skill {
+	text-align: center;
+	margin-left: 10px;
+}
+
+.skillsHead {
+  color: #E6E6EA;
+}
+
+.chart {
+	position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.chart canvas {
+	position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chart .percent {
+	color: #0e4379;
+  line-height: 152px;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.chart .percent:after {
+	content: '%';
+}
+
+.squareItem {
+	margin-top: 30px;
+  position: relative;
+}
+
+.statsSection {
+	position: relative;
+}
+
+.squareInnerContainer {
+	position: relative;
+	padding: 50px 15px 35px;
+	text-align: center;
+	border: 2px solid #444;
+	border-top: none;
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	width: 30%;
+	border-bottom: 2px solid #444;
+}
+
+.squareInnerContainer:before {
+	right: 0px;
+}
+
+.squareInnerContainer:after {
+	left: 0px;
+}
+
+.squareContent h2 {
+	font-size: 56px;
+	margin-bottom: 10px;
+	font-weight: 800;
+	color: #0e0e0edb;
+}
+
+.squareContent h3 {
+	font-size: 23px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.squareIcon {
+	position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #fff;
+}
+
+.contactSection {
+	width: 100%;
+	height: 520px;
+	background-color: #232C33;
+	color: #89cff0;
+}
+
+.contactButton {
+	color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 28px;
+}
+
+.contactButton:hover {
+	text-decoration: none;
+	color: #2ecc71;
+	background-color: #fff
+}
+
+.row {
+	margin: 0px;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
